@@ -14,6 +14,6 @@ You can download this data here : https://www.kaggle.com/datasets/berkanoztas/sy
 2. Clone this repository to your local machine.
 3. Make sure you add the downloaded csv file from kaggle as a file named SAML-D.csv. You can use a different name but then just change the variable db_file in etl_processor.py
 4. Navigate to the directory containing the `etl_processor.py` file.
-5. Run the script using the following command: python data_processor.py
+5. Run the script using the following command: python data_processor.py. data_analyzer.py can be run in similar way.
 
 Note that we only load first 100.000 rows from CSV for test purposes. 
